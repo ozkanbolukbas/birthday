@@ -9,15 +9,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button myBtn;
+    Button testBtn;
     TextView myText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myBtn = findViewById(R.id.testButton);
-        myBtn.setOnClickListener(new View.OnClickListener() {
+        testBtn = findViewById(R.id.testButton);
+        testBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "You Clicked The Button", Toast.LENGTH_SHORT).show();
