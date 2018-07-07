@@ -26,7 +26,8 @@ tools:context="com.example.ozkan.happybirhday.MainActivity">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Test Button"
-        android:id="@+id/testButton"/>
+        android:id="@+id/testButton"
+        android:background="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
